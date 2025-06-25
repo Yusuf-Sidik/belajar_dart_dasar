@@ -14,6 +14,12 @@ Hai! Ini adalah tempat aku menyimpan **catatan belajar Dart** dari dasar. Semua 
 
 - **Game Tebak Angka**: Permainan sederhana untuk menebak angka acak. User diberi maksimal 10 percobaan untuk menebak angka yang benar. Game ini dibuat menggunakan logika `if`, `while`, dan input dari user.
 
+- **Game Gunting Batu Kertas**
+User memilih antara `gunting`, `batu`, atau `kertas`, lalu komputer memilih secara acak. Hasil permainan ditentukan secara logis. Versi terbaru sudah mendukung:
+  - Bermain berulang kali
+  - Skor menang, kalah, dan seri
+  - Keluar dari permainan dengan mengetik `exit`
+
 ## 🎯 Tujuan
 
 Repo ini dibuat sebagai dokumentasi perjalanan belajarku memahami bahasa Dart. Nantinya, semua ini akan jadi dasar untuk belajar Flutter dan membangun aplikasi mobile.
