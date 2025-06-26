@@ -38,4 +38,15 @@ void main() {
   var guestName =
       guest ?? 'Guest'; // Jika guest null, gunakan 'Guest' sebagai default
   print(guestName); // Output: Guest
+
+  // contoh konvesi secara paksa dari nullable ke non-nullable
+  print('\ncontoh konvesi secara paksa dari nullable ke non-nullable');
+  int? nullNumber;
+  int nonNullNumber = nullNumber!;
+  /*
+  konversi secara paksa dengan menggunkan operator !, 
+  jika data kosong akan menyebabkan error 'Null check operator used on a null value'
+  */
+
+  print(nonNullNumber);
 }
