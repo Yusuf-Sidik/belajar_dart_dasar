@@ -40,13 +40,24 @@ void main() {
   print(guestName); // Output: Guest
 
   // contoh konvesi secara paksa dari nullable ke non-nullable
-  print('\ncontoh konvesi secara paksa dari nullable ke non-nullable');
-  int? nullNumber;
-  int nonNullNumber = nullNumber!;
+  // print('\ncontoh konvesi secara paksa dari nullable ke non-nullable');
+  // int? nullNumber;
+  // int nonNullNumber = nullNumber!;
   /*
   konversi secara paksa dengan menggunkan operator !, 
   jika data kosong akan menyebabkan error 'Null check operator used on a null value'
   */
+  // print(nonNullNumber);
 
-  print(nonNullNumber);
+  // contoh mengakses nullable member
+  print('\ncontoh mengakses nullable member');
+  int? intNumber;
+  double? doubleNumber = intNumber
+      ?.toDouble(); // menggunakan tanda tanya (?), hasilnya akan null jika datanya null
+
+  // jika tidak menggunakan ?, cara nya lebih panjang dengan menggunakan if
+  // if (intNumber != null) {
+  //   doubleNumber = intNumber.toDouble();
+  //   print(doubleNumber);
+  // }
 }
