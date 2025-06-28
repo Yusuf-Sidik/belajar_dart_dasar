@@ -51,9 +51,9 @@ void main() {
 
   // contoh mengakses nullable member
   print('\ncontoh mengakses nullable member');
-  int? intNumber;
-  double? doubleNumber = intNumber
-      ?.toDouble(); // menggunakan tanda tanya (?), hasilnya akan null jika datanya null
+  // int? intNumber;
+  // double? doubleNumber = intNumber
+  // ?.toDouble(); // menggunakan tanda tanya (?), hasilnya akan null jika datanya null
 
   // jika tidak menggunakan ?, cara nya lebih panjang dengan menggunakan if
   // if (intNumber != null) {
