@@ -1,5 +1,4 @@
 void main() {
-  var counter = 1;
   /*
   perulangan tanpa init statement, kondisi, post statement
   akan menjalankan bloc perulangan tanpa henti
@@ -15,8 +14,15 @@ void main() {
     print('Perulangan ke_$counter');
     counter++;
   }
+
+  perulangan menggunakan init statement dan kondisi
+  contoh:
+  for (var counter = 1; counter <= 10;) {
+    print('Perulangan ke-$counter');
+    counter++;
+  }
   */
-  for (; counter <= 10;) {
+  for (var counter = 1; counter <= 10;) {
     print('Perulangan ke-$counter');
     counter++;
   }
