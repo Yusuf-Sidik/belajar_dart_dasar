@@ -21,9 +21,14 @@ void main() {
     print('Perulangan ke-$counter');
     counter++;
   }
-  */
-  for (var counter = 1; counter <= 10;) {
+
+  perulangan dengan init statement, kondisi, dan post statement
+  contoh:
+  for (var counter = 1; counter <= 10; counter++) {
     print('Perulangan ke-$counter');
-    counter++;
+  }
+  */
+  for (var counter = 1; counter <= 10; counter++) {
+    print('Perulangan ke-$counter');
   }
 }
